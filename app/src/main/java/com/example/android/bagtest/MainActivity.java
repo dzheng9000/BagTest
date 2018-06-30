@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btnA = (Button) findViewById(R.id.btnA);
-        Button btnB = (Button) findViewById(R.id.btnB);
-        Button btnC = (Button) findViewById(R.id.btnC);
-        Button btnD = (Button) findViewById(R.id.btnD);
+        Button btnA = findViewById(R.id.btnA);
+        Button btnB = findViewById(R.id.btnB);
+        Button btnC = findViewById(R.id.btnC);
+        Button btnD = findViewById(R.id.btnD);
         final MediaPlayer mpA = MediaPlayer.create(this, R.raw.a);
         final MediaPlayer mpB = MediaPlayer.create(this, R.raw.b);
         final MediaPlayer mpC = MediaPlayer.create(this, R.raw.c);
